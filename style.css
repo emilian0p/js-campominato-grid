@@ -24,3 +24,33 @@ div.square{
     border: 2px white solid;
 }
 
+div.square{
+    float: left;
+    width: calc(100% / 8);
+    height: calc(100% / 8);
+    cursor: pinter;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+}
+
+
+div.square.green{
+    background-color: lightgreen;
+    color: black;
+}
+
+div.square.coral{
+    background-color: lightcoral;
+    color: black;
+}
+
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: table;
+}
