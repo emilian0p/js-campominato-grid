@@ -6,21 +6,20 @@
 }
 
 body{
-    background-color: #000000;
+    background-color: #443e3e;
 }
 
 main{
     margin-top: 50px;
 }
 
-div#grid-container{
+div#container{
     margin: 0 auto;
     width: 650px;
     height: 650px;
 }
 
-
-div#grid-container,
+div#container,
 div.square{
     border: 2px white solid;
 }
